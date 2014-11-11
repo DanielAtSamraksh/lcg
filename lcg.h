@@ -4,6 +4,7 @@
 ///
 /// See http://en.wikipedia.org/wiki/Linear_congruential_generator.
 
+/// This type is used in all the internal calculations.
 typedef unsigned long long internal_lcg_t;
 
 struct lcg_base_t {
